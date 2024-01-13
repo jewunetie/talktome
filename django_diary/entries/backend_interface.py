@@ -3,7 +3,7 @@ from openai import OpenAI
 
 class OpenAIInterface:
     def __init__(self):
-        self.client = OpenAI(api_key='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')
+        self.client = OpenAI(api_key='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')
 
     def generate(self, text, JSON=False):
         return self.client.chat.completions.create(

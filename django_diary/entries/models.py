@@ -7,6 +7,7 @@ class Entry(models.Model):
     content = models.TextField()
     date_created = models.DateTimeField(default=timezone.now)
     positive_version = models.TextField(blank=True, null=True)
+    find_pattern = models.TextField(blank=True, null=True)
 
 
     def __str__(self):

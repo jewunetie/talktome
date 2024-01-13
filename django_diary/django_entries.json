@@ -1,0 +1,312 @@
+[
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 20, 2023",
+            "content": "Today was a mixed day. It started on a positive note as I received a heartfelt compliment from my colleague for my hard work on a recent project. It felt great to be recognized for my efforts, and it boosted my confidence. However, the day took a turn for the worse when I got stuck in heavy traffic during my commute back home. What should have been a 30-minute drive turned into a frustrating ordeal that lasted over an hour. The gloomy weather outside didn't help either. Despite the traffic and the weather, I'm trying to focus on the positive moment earlier in the day.",
+            "date_created": "2023-12-20",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 21, 2023",
+            "content": "Today was undeniably a great day. I had a highly successful presentation at work that left me feeling accomplished and proud. My boss praised my efforts and even hinted at a possible promotion in the future, which was incredibly motivating. In the evening, I met up with some old friends for dinner. We laughed, reminisced about old times, and created new memories. It was a fantastic way to unwind and connect with dear friends. I couldn't have asked for a better day.",
+            "date_created": "2023-12-21",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 22, 2023",
+            "content": "Unfortunately, today was a challenging day for me. I woke up with a sore throat and a slight fever, which forced me to call in sick to work. It's frustrating because I had important tasks to complete, but my health had other plans. I spent most of the day resting in bed, watching movies to distract myself from the discomfort. I'm hoping that a good night's sleep will help me recover and get back on track soon.",
+            "date_created": "2023-12-22",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 23, 2023",
+            "content": "Today was a peaceful day spent at home. I decided to take a break from work and indulge in my favorite pastime - reading. There's something incredibly soothing about getting lost in the pages of a good book. It allowed me to escape from the daily hustle and bustle for a while. The serenity of the day was exactly what I needed to recharge and find some inner peace.",
+            "date_created": "2023-12-23",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 24, 2023",
+            "content": "Christmas Eve brought joy and warmth to our home. The entire day was dedicated to festive preparations. We decorated the house with colorful lights and ornaments, baked delicious cookies, and wrapped presents for our loved ones. In the evening, our family gathered around the beautifully adorned tree, exchanging heartfelt gifts and sharing stories. It was a heartwarming and magical night filled with love and laughter.",
+            "date_created": "2023-12-24",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 25, 2023",
+            "content": "Merry Christmas! Today was a day of celebration and togetherness. We woke up to find our stockings filled with surprises, and the excitement was palpable. We spent the day opening presents, enjoying a lavish feast, and playing board games. The highlight of the day was watching the joy on everyone's faces as they unwrapped their gifts. It's a reminder of the importance of family and the happiness that simple moments can bring.",
+            "date_created": "2023-12-25",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 26, 2023",
+            "content": "Getting back to work after the holiday break was a bit of a challenge. It took some time to readjust to the routine, and my inbox was overflowing with emails and tasks that piled up during the vacation. It felt overwhelming, but I managed to prioritize and tackle the most urgent matters. It's always a transition coming back to work, but I'm determined to start the year on a productive note.",
+            "date_created": "2023-12-26",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 27, 2023",
+            "content": "I took a break from work today and decided to head to the beach to watch the sunset. There's something enchanting about the way the sun dips below the horizon, casting vibrant hues across the sky. It was a serene and meditative experience, and it reminded me of the beauty that surrounds us. Moments like these make me appreciate the simple pleasures in life.",
+            "date_created": "2023-12-27",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 28, 2023",
+            "content": "Today was all about organizing and decluttering my home. I've been wanting to tackle this project for a while, and I finally had the time to do it. It felt liberating to go through my belongings, deciding what to keep, donate, or discard. By the end of the day, my living space felt more spacious and peaceful. It's amazing how tidying up can also clear your mind.",
+            "date_created": "2023-12-28",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 29, 2023",
+            "content": "Met up with an old friend today for coffee. We hadn't seen each other in years, and it was a delightful reunion. We talked about our lives, shared stories, and laughed like no time had passed. It's amazing how certain friendships remain strong no matter how much time has gone by. It was a heartwarming reminder of the lasting connections we can have.",
+            "date_created": "2023-12-29",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 30, 2023",
+            "content": "Went on a spontaneous hiking trip with friends today. We ventured into the mountains to explore new trails and take in the breathtaking views. The natural beauty around us was awe-inspiring, but the hike itself was more challenging than anticipated. It tested our stamina and determination, but we persevered. The sense of accomplishment when we reached the summit was indescribable, and it was a day filled with adventure, laughter, and unforgettable memories.",
+            "date_created": "2023-12-30",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for December 31, 2023",
+            "content": "New Year's Eve was a night to remember. The day was filled with preparations for the evening's festivities. We decorated the house, prepared a lavish meal, and bought fireworks to ring in the new year with a bang. As the clock struck midnight, we gathered outside and watched the sky light up with dazzling fireworks. It was a moment of pure joy and anticipation for the possibilities that the new year holds.",
+            "date_created": "2023-12-31",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 1, 2024",
+            "content": "Happy New Year! Today marked the beginning of a fresh chapter. I spent the day reflecting on the past year, setting new goals, and making resolutions. It's a time of renewal and a chance to pursue dreams with renewed energy. I'm excited about the opportunities and challenges that lie ahead, and I'm determined to make this year a memorable one.",
+            "date_created": "2024-01-01",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 2, 2024",
+            "content": "Back to work after the holiday break. It's always a bit of a transition, but I approached it with renewed energy and determination. There are new projects and challenges waiting, and I'm eager to dive in. The first day back was a mix of catching up on emails, meetings, and setting priorities for the upcoming weeks. It's a busy start to the year, but I'm ready for it.",
+            "date_created": "2024-01-02",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 3, 2024",
+            "content": "I decided to have a quiet evening at home today. It gave me a chance to reflect on my life, my aspirations, and the path I want to take in the coming months. Sometimes, amidst the hustle and bustle of daily life, it's essential to take a step back and connect with your inner self. It was a peaceful and introspective day.",
+            "date_created": "2024-01-03",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 4, 2024",
+            "content": "Today brought a spontaneous adventure as I went on a road trip with some close friends. We hit the open road, explored new places, and enjoyed each other's company. It was a day filled with laughter, shared stories, and unforgettable moments. Spontaneous adventures like these are a reminder of the beauty of friendship and the joy of exploring the unknown.",
+            "date_created": "2024-01-04",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 5, 2024",
+            "content": "Today was a highly productive day working from home. I managed to complete all my pending tasks and even made progress on some long-term projects. It's incredibly satisfying to check off items from my to-do list and see tangible results. However, the day also had its share of frustrations as I missed an important conference call due to technical issues. It was a reminder that even on productive days, challenges can arise.",
+            "date_created": "2024-01-05",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 6, 2024",
+            "content": "Received a surprise visit from a dear friend today. It was an unexpected delight to have them over, and we spent hours catching up on life, sharing stories, and reminiscing about our shared experiences. True friendships are the ones where you can pick up right where you left off, no matter how much time has passed. It left me with a warm feeling of connection and gratitude.",
+            "date_created": "2024-01-06",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 7, 2024",
+            "content": "I decided to explore a new hobby today - painting. It was both exciting and challenging as I tried to translate my thoughts and emotions onto the canvas. The creative process was both invigorating and frustrating at times. I realized that art is not just about creating something beautiful; it's about expressing oneself. While my first attempt might not have been a masterpiece, it was a meaningful step in exploring my artistic side.",
+            "date_created": "2024-01-07",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 8, 2024",
+            "content": "Today was all about relaxation. I spent the day at home, binge-watching a captivating TV series that I had been meaning to watch for a while. It's a guilty pleasure that allows me to escape into a different world for a while. Sometimes, taking a break and indulging in some 'me time' is essential for recharging and unwinding.",
+            "date_created": "2024-01-08",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 9, 2024",
+            "content": "Attended a family gathering today, and it was a heartwarming experience. There's something special about spending time with loved ones, sharing laughter, stories, and enjoying delicious homemade food. It's a reminder of the strong bonds that connect us, and it filled my heart with gratitude for the wonderful family I have.",
+            "date_created": "2024-01-09",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 10, 2024",
+            "content": "Received some exciting news today! I got accepted into my dream graduate program. The feeling of joy and accomplishment is indescribable. However, it's also accompanied by a hint of nervousness as I think about the challenges and responsibilities that lie ahead. It's a new chapter in my life, and I'm ready to embrace it with open arms.",
+            "date_created": "2024-01-10",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 11, 2024",
+            "content": "Work was demanding today, with a series of challenging tasks and unexpected issues that needed to be addressed. It was a long day, and I felt mentally drained by the end of it. However, the sense of accomplishment in overcoming these challenges was also present. It's a reminder that growth often comes from facing adversity.",
+            "date_created": "2024-01-11",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 12, 2024",
+            "content": "I decided to step out of my comfort zone today and joined a new fitness class. The first session was more intense than I anticipated, and it pushed me to my limits. At times, it felt exhausting and even a bit frustrating, but I'm determined to stick with it and improve my fitness. It's a reminder that personal growth often requires stepping into the discomfort zone.",
+            "date_created": "2024-01-12",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 13, 2024",
+            "content": "Spent a quiet day at home today, engrossed in a good book. It's remarkable how a well-written novel can transport you to different worlds and ignite your imagination. I got lost in the pages, experiencing the adventures and emotions of the characters. It's a simple pleasure that I cherish and find solace in.",
+            "date_created": "2024-01-13",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 14, 2024",
+            "content": "Dedicated the day to volunteering at a local charity event. It was a fulfilling experience to give back to the community and make a positive impact. Despite the rain that poured down towards the end of the event, I felt a sense of accomplishment and purpose. It's a reminder that small acts of kindness can make a significant difference in the lives of others.",
+            "date_created": "2024-01-14",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 15, 2024",
+            "content": "Continued my volunteering efforts today, extending a helping hand to those in need. It's a humbling experience that fills my heart with gratitude. The sense of fulfillment that comes from contributing to a greater cause is truly priceless, even if the weather didn't cooperate once again. It's a reminder that there is always an opportunity to make a positive impact.",
+            "date_created": "2024-01-15",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 16, 2024",
+            "content": "Today was a day of self-reflection and setting new personal goals. I took some time to assess my values, aspirations, and the direction I want to take in life. It's essential to periodically recalibrate and align one's actions with their intentions. As I looked ahead, I felt a sense of determination and purpose to pursue my dreams.",
+            "date_created": "2024-01-16",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 17, 2024",
+            "content": "Started a new project at work today. While it brings exciting opportunities, it also comes with its share of challenges and uncertainties. I'm prepared to put in the hard work and dedication required to make it a success. The journey ahead may be demanding, but I'm ready to face it with a positive mindset and a willingness to learn.",
+            "date_created": "2024-01-17",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 18, 2024",
+            "content": "Spent quality time with my family today. We laughed, shared stories, and enjoyed a delicious homemade meal together. There's a unique bond that exists within a family, and these moments are precious. It reminded me of the importance of cherishing the time we have with our loved ones.",
+            "date_created": "2024-01-18",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    },
+    {
+        "model": "entries.Entry",
+        "fields": {
+            "title": "Entry for January 19, 2024",
+            "content": "Today was all about last-minute preparations for an important presentation at work. The pressure was mounting as I reviewed my slides and practiced my talking points. It's natural to feel a bit nervous before such significant events, but I'm determined to give it my best shot and make it work.",
+            "date_created": "2024-01-19",
+            "positive_version": "",
+            "find_pattern": ""
+        }
+    }
+]

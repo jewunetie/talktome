@@ -1,15 +1,26 @@
 {% extends "entries/base.html" %}
 
 {% block content %}
-    <article>
-        <h2>{{ entry.date_created|date:'Y-m-d H:i' }}</h2>
-        <h3>{{ entry.title }}</h3>
-        <p>{{ entry.content }}</p>
-        <p>{{ entry.positive_version }}</p>
-    </article>
-    
-	<p>
-	    <a href="{% url 'entry-update' entry.id %}">✍️ Edit</a>
-	    <a href="{% url 'entry-delete' entry.id %}">⛔ Delete</a>
-	</p>
+    <div style="display: flex;">
+        <div style="flex: 1;">
+            <article>
+                <h2>{{ entry.date_created|date:'Y-m-d H:i' }}</h2>
+                <h3>{{ entry.title }}</h3>
+                <p>{{ entry.content }}</p>
+                <div></div>
+                <h3>Positivity Box</h3>
+                <p>{{ entry.positive_version }}</p>
+            </article>
+            
+            <p>
+                <a href="{% url 'entry-update' entry.id %}">✍️ Edit</a>
+                <a href="{% url 'entry-delete' entry.id %}">⛔ Delete</a>
+            </p>
+        </div>
+
+        <div style="flex: 1;">
+            <h3>Find Pattern</h3>
+            <p>{{ entry.find_pattern }}</p>
+        </div>
+    </div>
 {% endblock %}

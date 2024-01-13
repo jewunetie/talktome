@@ -33,6 +33,16 @@ class EntryCreateView(LockedView, SuccessMessageMixin, CreateView):
     success_url = reverse_lazy("entry-list")
     success_message = "Your new entry was created!"
 
+    def form_valid(self, form):
+        # Call OpenAIInterface.get_positive to get the positive version of the content
+        positive_content = OpenAIInterface().get_positive(form.instance.content)
+
+        # Update the positive_version of the Entry instance
+        form.instance.positive_version = positive_content
+
+        # Call the superclass method to save the object and return the response
+        return super().form_valid(form)
+
 
 class EntryUpdateView(LockedView, SuccessMessageMixin, UpdateView):
     model = Entry
