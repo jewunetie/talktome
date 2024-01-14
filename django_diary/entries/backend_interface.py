@@ -3,7 +3,7 @@ from openai import OpenAI
 
 class OpenAIInterface:
     def __init__(self):
-        self.client = OpenAI(api_key='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')
+        self.client = OpenAI(api_key='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')
 
     def generate(self, text, JSON=False):
         return self.client.chat.completions.create(
@@ -23,11 +23,14 @@ class OpenAIInterface:
     
 
     def find_pattern(self, texts):
+        general_prompt = "Tell me how to change my time allocation of my activities so that I can make life better. Be concise and make a 3 bullet point list:\n\n"
         if len(texts) == 1:
-            return self.generate("Please find a pattern of bad or good behavior in the following journal entry:\n\n" + texts[0]) + "\n\n ---------------- \n\n I didn't find any other journal similar to this one."
+            return self.generate(general_prompt + texts[0]) 
+        # + "\n\n ---------------- \n\n I didn't find any other journal similar to this one."
         
-        response = self.generate("Please find a pattern of bad or good behavior in the following journal entries and let me know what actionable insights can I take. Be concise and make a 3 bullet point list.:\n\n" + "\n\n".join(texts))
-        return response + "\n\n -- \n\n I viewed these journal entries: " + " ---------------------------".join(texts)
+        response = self.generate(general_prompt + "\n\n".join(texts))
+        return response 
+    # + "\n\n -- \n\n I viewed these journal entries: " + " ---------------------------".join(texts)
 
     def get_embedding(self, text, model="text-embedding-ada-002"):
         text = text.replace("\n", " ")
