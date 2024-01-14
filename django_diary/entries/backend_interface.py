@@ -3,7 +3,7 @@ from openai import OpenAI
 
 class OpenAIInterface:
     def __init__(self):
-        self.client = OpenAI(api_key='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')
+        self.client = OpenAI(api_key='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')
 
     def generate(self, text, JSON=False):
         return self.client.chat.completions.create(
@@ -15,11 +15,19 @@ class OpenAIInterface:
                 }
             ],
             model="gpt-3.5-turbo-1106",
-        )
+        ).choices[0].message.content
     
     def get_positive(self, text):
         response = self.generate("Please create a positive version of the following text:\n\n" + text)
-        return response.choices[0].message.content
+        return response
+    
+
+    def find_pattern(self, texts):
+        if len(texts) == 1:
+            return self.generate("Please find a pattern of bad or good behavior in the following journal entry:\n\n" + texts[0]) + "\n\n ---------------- \n\n I didn't find any other journal similar to this one."
+        
+        response = self.generate("Please find a pattern of bad or good behavior in the following journal entries and let me know what actionable insights can I take. Be concise and make a 3 bullet point list.:\n\n" + "\n\n".join(texts))
+        return response + "\n\n -- \n\n I viewed these journal entries: " + " ---------------------------".join(texts)
 
     def get_embedding(self, text, model="text-embedding-ada-002"):
         text = text.replace("\n", " ")
@@ -37,13 +45,31 @@ class PineconeInterface:
             environment="gcp-starter"  # find next to API key in console
         )
         self.index = pinecone.Index('journals')
+        self.openai = OpenAIInterface()
 
-    def indexing(self, embeddings, ids):
-        #self.index.upsert(vectors=embeddings, ids=ids)
-        self.index.upsert(embeddings)
+    def indexing(self, text, id):
+        embeddings = self.openai.get_embedding(text)
+        embed_dict = {"id": id, 'values': embeddings}
+        self.index.upsert(vectors=[embed_dict], namespace="ns2")
 
-    def query(self, embeddings, top_k=10):
-        return self.index.query(queries=embeddings, top_k=top_k)
+    def query(self, text, date, top_k=3):
+        embedding = self.openai.get_embedding(text)
+        # find the strings that are most similar to the input string that have cosine similarity > 0.6
+        final_query = self.index.query(namespace="ns2", vector=embedding, top_k=top_k, include_values=True)
+
+        results = []
+        for entry in final_query['matches']:
+            # if the entry id is the same as the date, skip it
+            print(entry['id'])
+            if entry['id'] == date or entry['score'] < 0.5:
+                continue
+            results.append(entry['id'])
+        
+        return results
+    
+    def delete_id(self, id):
+        self.index.delete(ids=[id], namespace="ns")
+
     
 # openai = OpenAIInterface()
 # pinecone = PineconeInterface()
