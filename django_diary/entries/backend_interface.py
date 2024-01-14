@@ -3,7 +3,7 @@ from openai import OpenAI
 
 class OpenAIInterface:
     def __init__(self):
-        self.client = OpenAI(api_key='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')
+        self.client = OpenAI(api_key='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')
 
     def generate(self, text, JSON=False):
         return self.client.chat.completions.create(
@@ -64,7 +64,7 @@ class PineconeInterface:
         for entry in final_query['matches']:
             # if the entry id is the same as the date, skip it
             print(entry['id'])
-            if entry['id'] == date or entry['score'] < 0.5:
+            if entry['id'] == date or abs(entry['score']) < 0.5:
                 continue
             results.append(entry['id'])
         
